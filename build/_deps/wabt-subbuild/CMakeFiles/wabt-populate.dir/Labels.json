@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/CMakeFiles/wabt-populate"
+		},
+		{
+			"file" : "/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/CMakeFiles/wabt-populate.rule"
+		},
+		{
+			"file" : "/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/CMakeFiles/wabt-populate-complete.rule"
+		},
+		{
+			"file" : "/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/wabt-populate-prefix/src/wabt-populate-stamp/wabt-populate-build.rule"
+		},
+		{
+			"file" : "/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/wabt-populate-prefix/src/wabt-populate-stamp/wabt-populate-configure.rule"
+		},
+		{
+			"file" : "/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/wabt-populate-prefix/src/wabt-populate-stamp/wabt-populate-download.rule"
+		},
+		{
+			"file" : "/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/wabt-populate-prefix/src/wabt-populate-stamp/wabt-populate-install.rule"
+		},
+		{
+			"file" : "/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/wabt-populate-prefix/src/wabt-populate-stamp/wabt-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/wabt-populate-prefix/src/wabt-populate-stamp/wabt-populate-patch.rule"
+		},
+		{
+			"file" : "/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/wabt-populate-prefix/src/wabt-populate-stamp/wabt-populate-test.rule"
+		},
+		{
+			"file" : "/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/wabt-populate-prefix/src/wabt-populate-stamp/wabt-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"wabt-populate"
+		],
+		"name" : "wabt-populate"
+	}
+}

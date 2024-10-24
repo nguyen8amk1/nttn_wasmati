@@ -1,0 +1,37 @@
+{
+  "date": "16-10-2024 10:04:28",
+  "edgeHeader": [
+    "src",
+    "dest",
+    "edgeType",
+    "label",
+    "pdgType",
+    "constType",
+    "constValueI",
+    "constValueF",
+    "astOrder"
+  ],
+  "edges": 75,
+  "nodeHeader": [
+    "id",
+    "nodeType",
+    "name",
+    "index",
+    "nargs",
+    "nlocals",
+    "nresults",
+    "isImport",
+    "isImport",
+    "varType",
+    "instType",
+    "opcode",
+    "constType",
+    "constValueI",
+    "constValueF",
+    "label",
+    "offset",
+    "hasElse"
+  ],
+  "nodes": 41,
+  "version": "1.0.0"
+}

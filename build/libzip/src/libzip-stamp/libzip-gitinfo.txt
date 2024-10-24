@@ -1,0 +1,3 @@
+repository='https://github.com/nih-at/libzip.git'
+module=''
+tag='origin'

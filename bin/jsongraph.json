@@ -1,0 +1,807 @@
+{
+  "edges": [
+    {
+      "dest": 1,
+      "src": 0,
+      "type": "AST"
+    },
+    {
+      "dest": 7,
+      "src": 0,
+      "type": "AST"
+    },
+    {
+      "dest": 2,
+      "src": 1,
+      "type": "AST"
+    },
+    {
+      "dest": 3,
+      "src": 2,
+      "type": "AST"
+    },
+    {
+      "dest": 5,
+      "src": 2,
+      "type": "AST"
+    },
+    {
+      "dest": 4,
+      "src": 3,
+      "type": "AST"
+    },
+    {
+      "dest": 6,
+      "src": 5,
+      "type": "AST"
+    },
+    {
+      "dest": 8,
+      "src": 7,
+      "type": "AST"
+    },
+    {
+      "dest": 16,
+      "src": 7,
+      "type": "AST"
+    },
+    {
+      "dest": 9,
+      "src": 8,
+      "type": "AST"
+    },
+    {
+      "dest": 14,
+      "src": 8,
+      "type": "AST"
+    },
+    {
+      "dest": 10,
+      "src": 9,
+      "type": "AST"
+    },
+    {
+      "dest": 11,
+      "src": 9,
+      "type": "AST"
+    },
+    {
+      "dest": 12,
+      "src": 9,
+      "type": "AST"
+    },
+    {
+      "dest": 13,
+      "src": 9,
+      "type": "AST"
+    },
+    {
+      "dest": 15,
+      "src": 14,
+      "type": "AST"
+    },
+    {
+      "dest": 17,
+      "src": 16,
+      "type": "AST"
+    },
+    {
+      "dest": 18,
+      "label": "",
+      "src": 16,
+      "type": "CFG"
+    },
+    {
+      "dest": 31,
+      "src": 17,
+      "type": "AST"
+    },
+    {
+      "dest": 19,
+      "label": "",
+      "src": 18,
+      "type": "CFG"
+    },
+    {
+      "dest": 19,
+      "label": "$l0",
+      "pdgType": "Local",
+      "src": 18,
+      "type": "PDG"
+    },
+    {
+      "dest": 18,
+      "src": 19,
+      "type": "AST"
+    },
+    {
+      "dest": 20,
+      "src": 19,
+      "type": "AST"
+    },
+    {
+      "dest": 26,
+      "src": 19,
+      "type": "AST"
+    },
+    {
+      "dest": 21,
+      "label": "true",
+      "src": 19,
+      "type": "CFG"
+    },
+    {
+      "dest": 32,
+      "label": "false",
+      "src": 19,
+      "type": "CFG"
+    },
+    {
+      "dest": 25,
+      "src": 20,
+      "type": "AST"
+    },
+    {
+      "dest": 30,
+      "label": "",
+      "src": 20,
+      "type": "CFG"
+    },
+    {
+      "dest": 22,
+      "label": "",
+      "src": 21,
+      "type": "CFG"
+    },
+    {
+      "dest": 23,
+      "label": "",
+      "src": 22,
+      "type": "CFG"
+    },
+    {
+      "dest": 25,
+      "label": "$l1",
+      "pdgType": "Local",
+      "src": 22,
+      "type": "PDG"
+    },
+    {
+      "dest": 24,
+      "label": "",
+      "src": 23,
+      "type": "CFG"
+    },
+    {
+      "dest": 24,
+      "label": "$l3",
+      "pdgType": "Local",
+      "src": 23,
+      "type": "PDG"
+    },
+    {
+      "dest": 23,
+      "src": 24,
+      "type": "AST"
+    },
+    {
+      "dest": 25,
+      "label": "",
+      "src": 24,
+      "type": "CFG"
+    },
+    {
+      "dest": 1,
+      "src": 24,
+      "type": "CG"
+    },
+    {
+      "dest": 25,
+      "label": "$foo.bar",
+      "pdgType": "Function",
+      "src": 24,
+      "type": "PDG"
+    },
+    {
+      "dest": 24,
+      "src": 25,
+      "type": "AST"
+    },
+    {
+      "dest": 22,
+      "src": 25,
+      "type": "AST"
+    },
+    {
+      "dest": 20,
+      "label": "",
+      "src": 25,
+      "type": "CFG"
+    },
+    {
+      "dest": 31,
+      "label": "$l1",
+      "pdgType": "Local",
+      "src": 25,
+      "type": "PDG"
+    },
+    {
+      "dest": 31,
+      "label": "$foo.bar",
+      "pdgType": "Function",
+      "src": 25,
+      "type": "PDG"
+    },
+    {
+      "dest": 29,
+      "src": 26,
+      "type": "AST"
+    },
+    {
+      "dest": 28,
+      "label": "",
+      "src": 27,
+      "type": "CFG"
+    },
+    {
+      "dest": 29,
+      "label": "$l2",
+      "pdgType": "Local",
+      "src": 27,
+      "type": "PDG"
+    },
+    {
+      "dest": 29,
+      "label": "",
+      "src": 28,
+      "type": "CFG"
+    },
+    {
+      "dest": 29,
+      "label": "i32.const 3",
+      "pdgType": "Const",
+      "src": 28,
+      "type": "PDG",
+      "value": {
+        "type": "i32",
+        "value": 3
+      }
+    },
+    {
+      "dest": 28,
+      "src": 29,
+      "type": "AST"
+    },
+    {
+      "dest": 27,
+      "src": 29,
+      "type": "AST"
+    },
+    {
+      "dest": 20,
+      "label": "",
+      "src": 29,
+      "type": "CFG"
+    },
+    {
+      "dest": 31,
+      "label": "$l2",
+      "pdgType": "Local",
+      "src": 29,
+      "type": "PDG"
+    },
+    {
+      "dest": 31,
+      "label": "",
+      "src": 30,
+      "type": "CFG"
+    },
+    {
+      "dest": 31,
+      "label": "i32.const 1",
+      "pdgType": "Const",
+      "src": 30,
+      "type": "PDG",
+      "value": {
+        "type": "i32",
+        "value": 1
+      }
+    },
+    {
+      "dest": 30,
+      "src": 31,
+      "type": "AST"
+    },
+    {
+      "dest": 19,
+      "src": 31,
+      "type": "AST"
+    },
+    {
+      "dest": 17,
+      "label": "",
+      "src": 31,
+      "type": "CFG"
+    },
+    {
+      "dest": 17,
+      "label": "$l1",
+      "pdgType": "Local",
+      "src": 31,
+      "type": "PDG"
+    },
+    {
+      "dest": 17,
+      "label": "$foo.bar",
+      "pdgType": "Function",
+      "src": 31,
+      "type": "PDG"
+    },
+    {
+      "dest": 17,
+      "label": "$l2",
+      "pdgType": "Local",
+      "src": 31,
+      "type": "PDG"
+    },
+    {
+      "dest": 27,
+      "label": "",
+      "src": 32,
+      "type": "CFG"
+    }
+  ],
+  "nodes": [
+    {
+      "id": 0,
+      "inEdges": [],
+      "name": "",
+      "outEdges": [
+        0,
+        1
+      ],
+      "type": "Module"
+    },
+    {
+      "id": 1,
+      "inEdges": [
+        0,
+        35
+      ],
+      "index": 0,
+      "isExport": false,
+      "isImport": true,
+      "name": "$foo.bar",
+      "nargs": 1,
+      "nlocals": 0,
+      "nresults": 1,
+      "outEdges": [
+        2
+      ],
+      "type": "Function"
+    },
+    {
+      "id": 2,
+      "inEdges": [
+        2
+      ],
+      "outEdges": [
+        3,
+        4
+      ],
+      "type": "FunctionSignature"
+    },
+    {
+      "id": 3,
+      "inEdges": [
+        3
+      ],
+      "outEdges": [
+        5
+      ],
+      "type": "Parameters"
+    },
+    {
+      "id": 4,
+      "inEdges": [
+        5
+      ],
+      "index": 0,
+      "name": "$p0",
+      "outEdges": [],
+      "type": "VarNode",
+      "varType": "i32"
+    },
+    {
+      "id": 5,
+      "inEdges": [
+        4
+      ],
+      "outEdges": [
+        6
+      ],
+      "type": "Results"
+    },
+    {
+      "id": 6,
+      "inEdges": [
+        6
+      ],
+      "index": 0,
+      "name": "",
+      "outEdges": [],
+      "type": "VarNode",
+      "varType": "i32"
+    },
+    {
+      "id": 7,
+      "inEdges": [
+        1
+      ],
+      "index": 1,
+      "isExport": false,
+      "isImport": false,
+      "name": "$f1",
+      "nargs": 0,
+      "nlocals": 4,
+      "nresults": 1,
+      "outEdges": [
+        7,
+        8
+      ],
+      "type": "Function"
+    },
+    {
+      "id": 8,
+      "inEdges": [
+        7
+      ],
+      "outEdges": [
+        9,
+        10
+      ],
+      "type": "FunctionSignature"
+    },
+    {
+      "id": 9,
+      "inEdges": [
+        9
+      ],
+      "outEdges": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "type": "Locals"
+    },
+    {
+      "id": 10,
+      "inEdges": [
+        11
+      ],
+      "index": 0,
+      "name": "$l0",
+      "outEdges": [],
+      "type": "VarNode",
+      "varType": "i32"
+    },
+    {
+      "id": 11,
+      "inEdges": [
+        12
+      ],
+      "index": 1,
+      "name": "$l1",
+      "outEdges": [],
+      "type": "VarNode",
+      "varType": "i32"
+    },
+    {
+      "id": 12,
+      "inEdges": [
+        13
+      ],
+      "index": 2,
+      "name": "$l2",
+      "outEdges": [],
+      "type": "VarNode",
+      "varType": "i32"
+    },
+    {
+      "id": 13,
+      "inEdges": [
+        14
+      ],
+      "index": 3,
+      "name": "$l3",
+      "outEdges": [],
+      "type": "VarNode",
+      "varType": "i32"
+    },
+    {
+      "id": 14,
+      "inEdges": [
+        10
+      ],
+      "outEdges": [
+        15
+      ],
+      "type": "Results"
+    },
+    {
+      "id": 15,
+      "inEdges": [
+        15
+      ],
+      "index": 0,
+      "name": "",
+      "outEdges": [],
+      "type": "VarNode",
+      "varType": "i32"
+    },
+    {
+      "id": 16,
+      "inEdges": [
+        8
+      ],
+      "outEdges": [
+        16,
+        17
+      ],
+      "type": "Instructions"
+    },
+    {
+      "id": 17,
+      "inEdges": [
+        16,
+        55,
+        56,
+        57,
+        58
+      ],
+      "instType": "Return",
+      "outEdges": [
+        18
+      ],
+      "type": "Instruction"
+    },
+    {
+      "id": 18,
+      "inEdges": [
+        17,
+        21
+      ],
+      "instType": "LocalGet",
+      "label": "$l0",
+      "outEdges": [
+        19,
+        20
+      ],
+      "type": "Instruction"
+    },
+    {
+      "hasElse": true,
+      "id": 19,
+      "inEdges": [
+        19,
+        20,
+        54
+      ],
+      "instType": "If",
+      "nresults": 1,
+      "outEdges": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "type": "Instruction"
+    },
+    {
+      "id": 20,
+      "inEdges": [
+        22,
+        39,
+        49
+      ],
+      "instType": "Block",
+      "label": "$I0",
+      "nresults": 1,
+      "outEdges": [
+        26,
+        27
+      ],
+      "type": "Instruction"
+    },
+    {
+      "id": 21,
+      "inEdges": [
+        24
+      ],
+      "instType": "BeginBlock",
+      "label": "$I0",
+      "outEdges": [
+        28
+      ],
+      "type": "Instruction"
+    },
+    {
+      "id": 22,
+      "inEdges": [
+        28,
+        38
+      ],
+      "instType": "LocalGet",
+      "label": "$l1",
+      "outEdges": [
+        29,
+        30
+      ],
+      "type": "Instruction"
+    },
+    {
+      "id": 23,
+      "inEdges": [
+        29,
+        33
+      ],
+      "instType": "LocalGet",
+      "label": "$l3",
+      "outEdges": [
+        31,
+        32
+      ],
+      "type": "Instruction"
+    },
+    {
+      "id": 24,
+      "inEdges": [
+        31,
+        32,
+        37
+      ],
+      "instType": "Cal",
+      "label": "$foo.bar",
+      "nargs": 1,
+      "nresults": 1,
+      "outEdges": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "type": "Instruction"
+    },
+    {
+      "id": 25,
+      "inEdges": [
+        26,
+        30,
+        34,
+        36
+      ],
+      "instType": "Binary",
+      "opcode": "i32.add",
+      "outEdges": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "type": "Instruction"
+    },
+    {
+      "id": 26,
+      "inEdges": [
+        23
+      ],
+      "outEdges": [
+        42
+      ],
+      "type": "Else"
+    },
+    {
+      "id": 27,
+      "inEdges": [
+        48,
+        59
+      ],
+      "instType": "LocalGet",
+      "label": "$l2",
+      "outEdges": [
+        43,
+        44
+      ],
+      "type": "Instruction"
+    },
+    {
+      "id": 28,
+      "inEdges": [
+        43,
+        47
+      ],
+      "instType": "Const",
+      "outEdges": [
+        45,
+        46
+      ],
+      "type": "Instruction",
+      "value": {
+        "type": "i32",
+        "value": 3
+      }
+    },
+    {
+      "id": 29,
+      "inEdges": [
+        42,
+        44,
+        45,
+        46
+      ],
+      "instType": "Binary",
+      "opcode": "i32.mul",
+      "outEdges": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "type": "Instruction"
+    },
+    {
+      "id": 30,
+      "inEdges": [
+        27,
+        53
+      ],
+      "instType": "Const",
+      "outEdges": [
+        51,
+        52
+      ],
+      "type": "Instruction",
+      "value": {
+        "type": "i32",
+        "value": 1
+      }
+    },
+    {
+      "id": 31,
+      "inEdges": [
+        18,
+        40,
+        41,
+        50,
+        51,
+        52
+      ],
+      "instType": "Binary",
+      "opcode": "i32.add",
+      "outEdges": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "type": "Instruction"
+    },
+    {
+      "id": 32,
+      "inEdges": [
+        25
+      ],
+      "instType": "BeginBlock",
+      "label": "$I0",
+      "outEdges": [
+        59
+      ],
+      "type": "Instruction"
+    }
+  ]
+}

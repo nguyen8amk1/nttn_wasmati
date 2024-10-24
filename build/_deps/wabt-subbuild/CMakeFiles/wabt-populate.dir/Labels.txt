@@ -1,0 +1,14 @@
+# Target labels
+ wabt-populate
+# Source files and their labels
+/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/CMakeFiles/wabt-populate
+/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/CMakeFiles/wabt-populate.rule
+/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/CMakeFiles/wabt-populate-complete.rule
+/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/wabt-populate-prefix/src/wabt-populate-stamp/wabt-populate-build.rule
+/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/wabt-populate-prefix/src/wabt-populate-stamp/wabt-populate-configure.rule
+/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/wabt-populate-prefix/src/wabt-populate-stamp/wabt-populate-download.rule
+/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/wabt-populate-prefix/src/wabt-populate-stamp/wabt-populate-install.rule
+/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/wabt-populate-prefix/src/wabt-populate-stamp/wabt-populate-mkdir.rule
+/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/wabt-populate-prefix/src/wabt-populate-stamp/wabt-populate-patch.rule
+/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/wabt-populate-prefix/src/wabt-populate-stamp/wabt-populate-test.rule
+/home/nttn/Documents/GitHub/wasmati/build/_deps/wabt-subbuild/wabt-populate-prefix/src/wabt-populate-stamp/wabt-populate-update.rule

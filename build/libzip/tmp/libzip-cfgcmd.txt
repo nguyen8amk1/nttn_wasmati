@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX=/home/nttn/Documents/GitHub/wasmati/build/libzip;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
